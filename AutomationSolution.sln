@@ -9,27 +9,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsharpAssignment", "CsharpA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employeeproject", "Employeeproject\Employeeproject.csproj", "{B222DE12-28DB-4580-A3CA-0958A0B050E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManagement", "SchoolManagement\SchoolManagement.csproj", "{FE14ED8D-9BB6-4619-9B57-AC67FF8F72A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolManagement", "SchoolManagement\SchoolManagement.csproj", "{FE14ED8D-9BB6-4619-9B57-AC67FF8F72A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartProject", "ShoppingCartProject\ShoppingCartProject.csproj", "{B36E40AB-708D-4CDC-A86D-293DBE7C810F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCartProject", "ShoppingCartProject\ShoppingCartProject.csproj", "{B36E40AB-708D-4CDC-A86D-293DBE7C810F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumConcept", "SeleniumConcept\SeleniumConcept.csproj", "{4A460DD7-3AE9-4AC3-A2C6-4C7CDC3F690E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumConcept", "SeleniumConcept\SeleniumConcept.csproj", "{4A460DD7-3AE9-4AC3-A2C6-4C7CDC3F690E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parabank", "Parabank\Parabank.csproj", "{C2E017EC-8B85-420C-9289-143FF0F6DF26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parabank", "Parabank\Parabank.csproj", "{C2E017EC-8B85-420C-9289-143FF0F6DF26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoguru99", "demoguru99\demoguru99.csproj", "{9029326D-DF85-4999-ACF9-9890F9EBD13B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoguru99", "demoguru99\demoguru99.csproj", "{9029326D-DF85-4999-ACF9-9890F9EBD13B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceBook", "FaceBook\FaceBook.csproj", "{6FCBC6B5-6421-402B-AA7B-AF5747C39C35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceBook", "FaceBook\FaceBook.csproj", "{6FCBC6B5-6421-402B-AA7B-AF5747C39C35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesForceProject", "SalesForceProject\SalesForceProject.csproj", "{C50FC72A-F71B-40D4-A6C1-90844161F738}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesForceProject", "SalesForceProject\SalesForceProject.csproj", "{C50FC72A-F71B-40D4-A6C1-90844161F738}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoToMeeting", "GoToMeeting\GoToMeeting.csproj", "{AE2433A0-E1DB-4974-B114-2185B16716AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoToMeeting", "GoToMeeting\GoToMeeting.csproj", "{AE2433A0-E1DB-4974-B114-2185B16716AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medibuddy", "Medibuddy\Medibuddy.csproj", "{9AF2628B-D63A-407D-857E-2DAEBEC8C608}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Medibuddy", "Medibuddy\Medibuddy.csproj", "{9AF2628B-D63A-407D-857E-2DAEBEC8C608}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nasscom", "nasscom\nasscom.csproj", "{0DCA1C2A-1D66-455D-B6D4-A34D93D89E41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nasscom", "nasscom\nasscom.csproj", "{0DCA1C2A-1D66-455D-B6D4-A34D93D89E41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oracle", "oracle\oracle.csproj", "{5A8F1D06-35B0-4ED8-BFC3-8943751D1AFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oracle", "oracle\oracle.csproj", "{5A8F1D06-35B0-4ED8-BFC3-8943751D1AFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumAdavance", "SeleniumAdavance\SeleniumAdavance.csproj", "{EF53F481-0320-4956-9FA4-0DAE1B17C112}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{5A8F1D06-35B0-4ED8-BFC3-8943751D1AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A8F1D06-35B0-4ED8-BFC3-8943751D1AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A8F1D06-35B0-4ED8-BFC3-8943751D1AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF53F481-0320-4956-9FA4-0DAE1B17C112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF53F481-0320-4956-9FA4-0DAE1B17C112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF53F481-0320-4956-9FA4-0DAE1B17C112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF53F481-0320-4956-9FA4-0DAE1B17C112}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
