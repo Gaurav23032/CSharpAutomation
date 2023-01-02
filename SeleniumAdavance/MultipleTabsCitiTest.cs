@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium.Support.UI;
+using OpenQA.Selenium.Support.Extensions;
+using System.Reflection.Metadata;
 
 namespace SeleniumAdavance
 {
@@ -31,12 +33,13 @@ namespace SeleniumAdavance
             driver.FindElement(By.Id("citiCard3")).SendKeys("8887");
             driver.FindElement(By.Id("citiCard4")).SendKeys("9998");
             driver.FindElement(By.Id("cvvnumber")).SendKeys("123");
-            driver.FindElement(By.Id("bill-date-long")).Click();
-            SelectElement month = new SelectElement(driver.FindElement(By.XPath("//select[@class='ui-datepicker-month']")));
-            month.SelectByText("Apr");
-            SelectElement year = new SelectElement(driver.FindElement(By.XPath("//select[@class='ui-datepicker-year']")));
-            year.SelectByText("2022");
-            driver.FindElement(By.LinkText("14")).Click();
+            // driver.FindElement(By.Id("bill-date-long")).Click();
+            // SelectElement month = new SelectElement(driver.FindElement(By.XPath("//select[@class='ui-datepicker-month']")));
+            //month.SelectByText("Apr");
+            //// SelectElement year = new SelectElement(driver.FindElement(By.XPath("//select[@class='ui-datepicker-year']")));
+            //year.SelectByText("2022");
+            // driver.FindElement(By.LinkText("14")).Click();
+            driver.ExecuteJavaScript("document.querySelector('bill-date-long').value='14-10-2022'");
             driver.FindElement(By.XPath("//input[@type='button']")).Click();
             Thread.Sleep(1000);
             string textPrint = driver.FindElement(By.XPath("//li[contains(text(),'• Please accept Terms and Conditions ')]")).Text;

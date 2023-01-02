@@ -8,7 +8,7 @@ namespace SeleniumConcept
         static void Main(String[] args)
         {
             IWebDriver driver = new ChromeDriver();
-            driver.Manage().window().maximize();
+            driver.Manage().Window.Maximize();
             driver.Url = "https://github.com/login";
             string title = driver.Title;
             Console.WriteLine(title);
